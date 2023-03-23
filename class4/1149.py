@@ -1,7 +1,7 @@
 from sys import stdin
 
 read = stdin.readline
-
+ 
 N = int(input())
 rgbs = [list(map(int, read().split())) for _ in range(N)]
 dp = [[0 for _ in range(3)] for _ in range(N)]
